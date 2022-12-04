@@ -24,7 +24,7 @@ public class HomePage extends BasePage {
     }
 
     public HomePage load() {
-        load("/nl/");
+        load("/");
 
         wait.until(driver -> getHeader().getLogo().isDisplayed());
         globalMethods.waitForElementToBeClickable(getCookie().getAcceptCookieButton());

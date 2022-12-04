@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public enum ConfigReader {
     BASE_URL,
-    BROWSER,
+    LANGUAGE,
     HEADLESS,
     INCOGNITO,
     WAIT_TIMEOUT;

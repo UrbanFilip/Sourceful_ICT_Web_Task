@@ -21,6 +21,6 @@ public class BasePage {
     }
 
     public void load(String endpoint) {
-        driver.get(ConfigReader.BASE_URL.getProperty() + endpoint);
+        driver.get(ConfigReader.BASE_URL.getProperty() + ConfigReader.LANGUAGE.getProperty() + endpoint);
     }
 }
